@@ -1,0 +1,81 @@
+body{
+    background-color: yellow;
+}
+
+.square {
+    background-color: lightgrey;
+    border: black 3px solid;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 52px;
+    width: 100px;
+    height: 100px;
+
+    /* need to vertically center */
+
+
+}
+
+#board{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    width: 300px;
+    height: 300px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    background-color: blue;
+    max-width: 350px;
+    margin: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#status-banner{
+    background-color: red;
+    color: white;
+    font-size: 24px;
+
+    width: 320px;
+    border-radius: 10px;
+    border: white 3px solid;
+    margin: 20px 0;
+
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+
+
+#reset-button{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(225, 156, 65);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contains_x {
+
+}
+
+.contains_o {
+
+}
